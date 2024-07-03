@@ -53,7 +53,7 @@ Queue::Queue(){
 Queue::~Queue(){
     //delete all remaning Queue (i.e. DQ all) 
     cout<< "Clearing queue" << endl;
-    while(size > 0) cout<< "Dequeing" << dequeue() << endl;
+    while(size > 0) cout<< "Dequeing " << dequeue() << endl;
 }
 
 
